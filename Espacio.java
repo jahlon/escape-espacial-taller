@@ -11,7 +11,14 @@ public class Espacio extends World {
     private Boton botonRetry;
     
     public Espacio() {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 600, 1); 
+        
+        // Configurar fondo negro
+        GreenfootImage fondo = getBackground();
+        fondo.setColor(Color.BLACK);
+        fondo.fill();
+        
+        // Asignar el orden en que se pintan los objetos
+        setPaintOrder(Boton.class, Counter.class, Nave.class, Asteroide.class, Estrella.class);
     }
 }
