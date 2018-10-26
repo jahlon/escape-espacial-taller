@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Greenfoot project file
 class.Asteroide.image=asteroid.png
 class.Boton.image=retry.png
@@ -7,19 +8,61 @@ dependency1.from=Espacio
 dependency1.to=SimpleTimer
 dependency1.type=UsesDependency
 dependency2.from=Espacio
-dependency2.to=Nave
-dependency2.type=UsesDependency
+=======
+#Greenfoot properties
+#Wed Oct 24 10:58:27 COT 2018
+>>>>>>> estrellas
+target4.type=ClassTarget
+target8.showInterface=false
+class.Asteroide.superclass=greenfoot.Actor
 dependency3.from=Espacio
-dependency3.to=Counter
+target3.height=50
+target5.height=50
+readme.y=10
 dependency3.type=UsesDependency
+readme.x=10
+target4.name=Asteroide
+target8.width=80
+target4.typeParameters=
+class.Nave.superclass=greenfoot.Actor
+readme.width=47
+class.Espacio.superclass=greenfoot.World
+editor.fx.0.width=816
+target1.height=50
+target5.type=ClassTarget
+target3.typeParameters=
 dependency4.from=Espacio
-dependency4.to=Boton
+mainWindow.width=1040
 dependency4.type=UsesDependency
+target2.width=80
+target5.name=SimpleTimer
+class.Explosion.superclass=greenfoot.Actor
+class.Asteroide.image=asteroid.png
+version=3.0.0
+class.Counter.superclass=greenfoot.Actor
+target6.type=ClassTarget
+dependency1.to=Explosion
+target7.width=80
 dependency5.from=Espacio
-dependency5.to=Asteroide
+>>>>>>> 48962f8dd7b5b5742472e8075d0f5e5c6a667f6f
+dependency2.to=Nave
+target1.width=80
 dependency5.type=UsesDependency
-dependency6.from=Espacio
+editor.fx.0.y=-4
+editor.fx.0.x=104
+target2.typeParameters=
+target8.height=50
+dependency3.to=Counter
+target3.showInterface=false
+target6.name=Nave
+dependency4.to=Boton
+target7.showInterface=false
+dependency5.to=Asteroide
+target8.typeParameters=
+target1.showInterface=false
+target5.showInterface=false
 dependency6.to=Estrella
+<<<<<<< HEAD
 dependency6.type=UsesDependency
 dependency7.from=Nave
 dependency7.to=Explosion
@@ -52,17 +95,63 @@ target1.type=ClassTarget
 target1.width=80
 target1.x=0
 target1.y=0
+=======
+target7.type=ClassTarget
+target6.width=80
+class.Nave.image=spaceship.png
+target6.height=50
+class.Estrella.superclass=greenfoot.Actor
+dependency6.from=Espacio
+package.numTargets=8
+target8.y=0
+target8.x=0
+target7.typeParameters=
+dependency6.type=UsesDependency
+target1.type=ClassTarget
+target7.y=0
+target7.x=0
+target7.name=Espacio
+target6.y=0
+target1.typeParameters=
+target6.x=0
+>>>>>>> 48962f8dd7b5b5742472e8075d0f5e5c6a667f6f
 target2.height=50
-target2.name=Counter
-target2.showInterface=false
+target5.y=0
+target4.height=50
+target5.x=0
+target1.name=Boton
+class.Boton.image=retry.png
+target8.type=ClassTarget
+target4.y=0
+target4.x=0
+class.Boton.superclass=greenfoot.Actor
+target3.y=0
+target3.x=0
 target2.type=ClassTarget
+<<<<<<< HEAD
 target2.width=80
 target2.x=0
+=======
+>>>>>>> 48962f8dd7b5b5742472e8075d0f5e5c6a667f6f
 target2.y=0
-target3.height=50
-target3.name=Explosion
-target3.showInterface=false
+target2.x=0
+mainWindow.y=-8
+class.SimpleTimer.superclass=
+mainWindow.x=-8
+target8.name=Estrella
+target6.typeParameters=
+dependency1.from=Nave
+target5.width=90
+target1.y=0
+editor.fx.0.height=739
+target1.x=0
+dependency1.type=UsesDependency
+readme.height=58
+target2.name=Counter
+readme.name=@README
+package.numDependencies=6
 target3.type=ClassTarget
+<<<<<<< HEAD
 target3.width=80
 target3.x=0
 target3.y=0
@@ -106,3 +195,19 @@ width=1382
 world.lastInstantiated=Espacio
 xPosition=-8
 yPosition=-8
+=======
+target4.width=80
+dependency2.from=Espacio
+dependency2.type=UsesDependency
+target5.typeParameters=
+world.lastInstantiated=Espacio
+mainWindow.height=744
+target2.showInterface=false
+target3.name=Explosion
+target7.height=50
+target6.showInterface=false
+class.Counter.image=Counter.png
+project.charset=UTF-8
+target3.width=80
+target4.showInterface=false
+>>>>>>> 48962f8dd7b5b5742472e8075d0f5e5c6a667f6f
